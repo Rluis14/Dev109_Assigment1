@@ -4,22 +4,31 @@
     <meta charset="utf-8">
     <meta name="author" content="Luis Gama">
     <title>Luis Gingerbread House</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
+  <body id="ginger-bread-recipe">
 
   <h1> Christmas Gingerbread House</h1>  
   
   <h2>Gingerbread House</h2>
   
-  <p>This recipe is from "Sally Baking Recipies,"Writen by <strong> Sally </strong> and can be found on https://sallysbakingaddiction.com/gingerbread-house/</p>
+  <p>This recipe is from "Sally Baking Recipies,"Writen by <strong> Sally </strong> and can be found on <a href="https://sallysbakingaddiction.com/gingerbread-house/">Sally Recipe</a>  </p>
   
   <figure>
-  <img src="GingerBread_House_2.jpg" style= "width:250px;height:250px;"
+  <img src="../images/GingerBread_GingerBread_House_2.jpg" style= "width:250px;height:250px;"
     alt= "Picture of a Gingerbread House">
-    <figcaption>Photo by : Scott Fiddelke, CC BY-NC-SA 2.0 https://creativecommons.org/licenses/by-nc-sa/2.0/ Via Creative Commons</figcaption>
+    <figcaption>Photo by :  <a href="https://www.flickr.com/photos/scottfidd/15872545109"> Scott Fiddelke</a>, CC BY-NC-SA 2.0  Via <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons</a></figcaption>
   </figure>
 
+    
+  <h1>Conversion</h1>
+  <fieldset>
+    <label for="tablespoons"> Tablespoons:</label>
+    <input type="number" id="tablespoons" name="tablespoons"> 
+    <label for="cups"> Cups:</label>
+    <input type="number" id="cups" name="cups">
+  </fieldset>
+    
   <h3>Ingredients</h3>
 
   <ul>
@@ -78,17 +87,6 @@
     <li> <strong>Shortening:</strong> Shortening is what makes this buttercream “crust” or “set” after a couple hours. If you want a sticky buttercream, you can replace the shortening with unsalted butter.</li>
   </ol>
   </body>
-</html>
-
-
-<h1>Conversion</h1>
-  <fieldset>
-    <label for="tablespoons"> Tablespoons:</label>
-    <input type="number" id="tablespoons" name="tablespoons"> 
-    <label for="cups"> Cups:</label>
-    <input type="number" id="cups" name="cups">
-  </fieldset>
-
 
 
 <h2> Rate this recipe</h2>
@@ -97,11 +95,20 @@
     <fieldset>
       <input type="radio" id="Easy" name="skill" value="Easy">
       <label for="Easy">Easy</label>
-      <input type="radio" id="Mediume" name="skill" value="Mediume">
+      <input type="radio" id="Medium" name="skill" value="Medium">
       <label for="Mediume">Mediume</label>
       <input type="radio" id="Hard" name="skill" value="Hard">
       <label for="Hard">Hard</label>
   </fieldset>
 </legend>
+
+ <footer>
+    <hr>
+    <p>
+      <a href="../index.html">Back to the Main Page</a>  
+      <span>This page created as academic activity only.</span>
+    </p>
+  </footer>
+
   
 </html>
