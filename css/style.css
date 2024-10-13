@@ -1,0 +1,27 @@
+body {
+  background: darkgreen;
+  background-image: url(../images/Christmas_tree_background.jpg);
+  color: yellow;
+  font-family: "Times New Roman", Times, serif;
+  /* font-weight: bold; */
+}
+
+h1, h2, h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: yellow;
+  text-shadow: 3px 3px 3px black;
+  font-style: oblique;
+  /* font-size: 30px; */
+}
+
+p {
+  color: lightyellow;
+}
+
+li, a {
+  color: lightyellow;
+}
+
+figcaption {
+  color: lightyellow;
+}
