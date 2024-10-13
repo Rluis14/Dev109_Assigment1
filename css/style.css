@@ -1,8 +1,8 @@
 body#paella-recipe {
   background: Drak green;
-  background-image: url(Christmas\ tree\ background.jpeg);
+  background-image: url('Christmas tree background.jpeg');
   color:Yellow;
-  Font-family: "times new roman", times, serif;"
+  Font-family: "times new roman", times, serif;
   /*font-weight:bold, */
 }
 
